@@ -1,0 +1,22 @@
+
+ion-tabs ion-tab-bar {
+  background-color: #333;
+  color: #fff;
+}
+
+
+ion-tabs ion-tab-bar ion-tab-button {
+  background-color: transparent;
+  color: #fff;
+}
+
+
+ion-tabs ion-tab-bar ion-tab-button ion-icon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+ion-tabs ion-tab-bar ion-tab-button ion-label {
+  color: #fff;
+}

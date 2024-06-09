@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <link rel="stylesheet" href="css/mian.css" />
+
+</head>
+
+<body>
+    <ion-app>
+
+        <ion-tabs>
+            <ion-tab-bar slot="bottom">
+                <ion-tab-button tab="expenses" id="expensesTab">
+                    <ion-icon name="wallet-outline"></ion-icon>
+                    <ion-label>Expenses</ion-label>
+                </ion-tab-button>
+                <ion-tab-button tab="summary" id="summaryTab">
+                    <ion-icon name="stats-chart-outline"></ion-icon>
+                    <ion-label>Summary</ion-label>
+                </ion-tab-button>
+            </ion-tab-bar>
+
+            <ion-tab tab="expenses">
+                <ion-content id="contentContainer">
+                </ion-content>
+            </ion-tab>
+        </ion-tabs>
+    </ion-app>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
